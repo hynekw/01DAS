@@ -1,0 +1,6 @@
+pandas
+sklearn
+jupyter
+plotly
+catboost
+graphviz
