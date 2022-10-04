@@ -1,6 +1,6 @@
 autoviz==0.1.55
 cufflinks==0.17.3
-great-expectations=0.15.26
+great-expectations==0.15.26
 jupyter==1.0.0
 matplotlib==3.5.3
 numpy==1.23.3
