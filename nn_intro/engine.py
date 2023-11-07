@@ -61,3 +61,6 @@ def draw_dot(root, format='svg', rankdir='LR'):
         dot.edge(str(id(n1)), str(id(n2)) + n2._op)
 
     return dot
+
+# placeholder
+# Showcase creation of complex graph and propagation of values with example of way to calculate partial differentiation
