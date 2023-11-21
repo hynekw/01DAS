@@ -31,7 +31,6 @@
     - https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application
 - Implement a simple API endpoint to receive user input.
 
-
 # Integrating the Model with the Web App (5 minutes)
 - Create a route for receiving user input and returning predictions.
 - Update the Flask app to incorporate the machine learning model to answer question.
