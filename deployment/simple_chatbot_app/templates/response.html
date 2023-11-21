@@ -1,4 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Reddit answers...</h1>
 <div>
-    <p>Response:</p>
-    <p>{{ response }}</p>
+    <h2>{{question}}</h2>
+    {% for result in response %}
+    <ul>
+        <li>{{result}}</li>
+    </ul>
+    {%endfor%}
 </div>
+{% endblock %}

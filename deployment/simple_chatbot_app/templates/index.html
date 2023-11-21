@@ -1,6 +1,9 @@
-<p>Hello, World2!</p>
+{% extends "base.html" %}
+{% block content %}
+<h1>Ask Reddit life tip!</h1>
 
-<form action="/ask" method="POST">
-    <input type="text" name="question" placeholder="Ask a question...">
-    <button type="submit">Ask</button>
+<form action="/ask" method="POST" class="card p-2">
+    <input type="text" name="question" placeholder="Ask a question..." class="form-text m-2 p-2">
+    <button type="submit" class="btn btn-primary m-2">Ask</button>
 </form>
+{% endblock %}
