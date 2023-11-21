@@ -29,9 +29,6 @@
 # Building the Backend (10 minutes)
 - Show how to create a Flask web application.
     - https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application
-    ```py
-    
-    ```
 - Implement a simple API endpoint to receive user input.
 
 
