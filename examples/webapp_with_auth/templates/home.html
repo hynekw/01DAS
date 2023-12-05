@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content... -->
+</head>
+<body>
+    {% if user_id %}
+    <h2>Welcome to the Home Page, {{user_name}}</h2>
+    <p>You are logged in as user with user id: {{ user_id }}</p>
+    <form action="/logout" method="post">
+        <input type="submit" value="Logout">
+    </form>
+    {% else %}
+    <h2>Welcome to the Home Page</h2>
+        <p>You are not logged in.</p>
+        <a href="/login">Login</a> | <a href="/register">Register</a>
+    {% endif %}
+    {% if request.args.get('message') == 'registered' %}
+        <p>User successfully registered!</p>
+    {% endif %}
+</body>
+</html>
