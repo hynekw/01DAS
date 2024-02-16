@@ -16,3 +16,6 @@ We will create API similar to Pytorch
 4. Training: weight init, feed forward, loss function, backprop
 4. MLP: architecture
 5. Application to data (e.g. classification task) https://github.com/karpathy/micrograd/blob/master/demo.ipynb
+
+# TODO
+- [ ] Improve with examples and descriptions from https://bclarkson-code.github.io/posts/llm-from-scratch-scalar-autograd/post.html
